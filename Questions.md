@@ -26,7 +26,7 @@ Example:
 3. Write a function that takes an integer **shift** and a string **text** as input. Your functions should return a new string that is the same as text, but every word separated by white-spaces should have its first **shift** characters moved to the end of the string. 
 Example:
 
-`shift(3, "Welcome to COMP100)`
+`shift(3, "Welcome to COMP100")`
 >"comeWel to P100COM"
 
 
@@ -138,6 +138,8 @@ Given the three most famous families from the GoT universe, write a match-making
 
 21. Given the program to get the next day of a given date, propose some glass box testing cases. State if your test is path-complete.
 
+https://docs.microsoft.com/en-us/office/troubleshoot/excel/determine-a-leap-year
+
 ```
 def tomorrow(date):
   (year, month, day) = date
@@ -150,7 +152,6 @@ def tomorrow(date):
       leap_year = True
   else:
       leap_year = False
-
 
   if month in (1, 3, 5, 7, 8, 10, 12):
       month_length = 31
